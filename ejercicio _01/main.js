@@ -1,12 +1,13 @@
+var boton = document.getElementById("boton");
+boton.addEventListener("click", calcularDiasVividos);
+
 function calcularDiasVividos() {
     try {
-
-        var nombre = document.getElementById('nombre').value;
-        var edad = parseInt(document.getElementById('edad').value);
+        var nombre = prompt('Ingrese su nombre');
+        var edad = prompt('Ingrese su edad');
         var diasVividos = edad * 365;
 
         var resultado = nombre + ' ha vivido aproximadamente ' + diasVividos + ' días.';
-
         document.getElementById('res').innerText = resultado;
         console.log(resultado);
     } catch(err) {
