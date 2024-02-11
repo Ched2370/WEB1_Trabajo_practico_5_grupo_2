@@ -14,9 +14,10 @@
     height: 100vh;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
     text-decoration: underline;
+    color: chartreuse;
     padding: 10px;
 }
 
@@ -44,6 +45,7 @@ p {
     border-radius: 10px;
     padding: 5px;
     min-height: 10vw;
+    width: 70vh;
 }
 
 input {
