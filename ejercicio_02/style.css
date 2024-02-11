@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gloria Hallelujah', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root {
+    background-color: black;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+  text-decoration: underline;
+  text-align: center;
+  color: greenyellow;
+}
+
+.enunciado {
+  margin: 10px 30px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  background-color: rgb(71, 70, 70);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.cuadro_texto {
+  border-radius: 10px;
+  color: black;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  padding: 5px;
+}
+
+#boton {
+  background-color: cornsilk;
+  color: blue;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 5px;
+  width: 40%;
+  margin-top: 10px;
+  position: relative;
+  left: 30%;
+  right: 30%;
+}
+
+#boton:hover{
+  cursor: pointer;
+  background-color: cadetblue;
+  color: black;
+}
+
+#rectangulo {
+  margin-top: 30px;
+  font-size: 32px;
+}
