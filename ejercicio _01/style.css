@@ -31,21 +31,10 @@ p {
 
 .formulario {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
-}
-
-.formulario form {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: column wrap;
-    background-color: rgb(44, 44, 44);
-    border-radius: 10px;
-    padding: 5px;
-    min-height: 10vw;
-    width: 70vh;
 }
 
 input {
