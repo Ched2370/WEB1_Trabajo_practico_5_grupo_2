@@ -1,5 +1,5 @@
 var btn = document.getElementById('btn');
-btn.addEventListener("click", solucion);
+btn.addEventListener('click', solucion);
 
 const r = document.getElementById('respuesta');
 
