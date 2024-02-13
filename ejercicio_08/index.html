@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.1/math.min.js"></script> <!--incorporacion biblioteca math.js-->
+    <title>Ejercicio 8</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 8</h1>
+        <p class="enunciado">8) Realice una página que permita al usuario cargar en un array una cantidad variable de
+            números. Una vez finalizada la carga la página debe mostrar un resumen estadístico
+            compuesto de los siguientes parámetros: Promedio, Mediana, Mínimo, Máximo y desviación
+            estándar.</p>
+    </div>
+    <div id="ordenar">
+        <input type="button" name="btn" class="btn" id="iniciar" value="Iniciar">
+        <input type="button" name="btn2" class="btn" id="resumen" value="Resumen">
+        <p class="parraf" id="promedio"></p>
+        <p class="parraf" id="mediana"></p>
+        <p class="parraf" id="minimo"></p>
+        <p class="parraf" id="maximo"></p>
+        <p class="parraf" id="desviacionStandar"></p>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
