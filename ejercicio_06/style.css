@@ -42,7 +42,7 @@
   flex-direction: column;
 }
 
-#btn {
+.btn {
   color: black;
   font-size: 24px;
   font-family: inconsolata, sans-serif;
@@ -53,7 +53,7 @@
   width: 150px;
 }
 
-#btn:hover {
+.btn:hover {
   color: blue;
   background-color: chartreuse;
   cursor: pointer;
@@ -76,4 +76,5 @@
   font-family: inconsolata, sans-serif;
   margin: 10px;
   font-size: 24px;
+  color: greenyellow;
 }
