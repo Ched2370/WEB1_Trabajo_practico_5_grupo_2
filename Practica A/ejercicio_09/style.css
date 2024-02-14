@@ -1,0 +1,65 @@
+.conteiner2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+#ordenar {
+    background-color: #3c6e71;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+    max-height: 300px;
+    margin-bottom: 30px;
+}
+
+.cuadro {
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    color: black;
+}
+
+.tabla {
+    width: 500px;
+}
+
+.item {
+    background-color: #ee6c4d;
+    color: black;
+    padding: 10px;
+}
+
+.persona:nth-child(odd) {
+    background-color: #fcbf49;
+}
+
+.persona:nth-child(even):nth-child(even) {
+    background-color: #eae2b7;
+}
+
+.datos {
+    color: black;
+    font-family: inconsolate, sans-serif;
+    font-size: 18px;
+    width: 25%;
+    height: 30px;
+}
+
+#fechaNac {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 150px;
+}
+
+@media screen and (max-width: 900px){
+    .conteiner2 {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+}
+

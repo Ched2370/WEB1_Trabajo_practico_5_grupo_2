@@ -1,11 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 9</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="titulo">Ejercicio 9</h1>
+      <p class="enunciado">
+        9) Realice una página que permita cargar los datos de una persona en un
+        array. Luego la página deberá mostrar en una tabla html con las
+        cabeceras adecuadas los datos solicitados.
+      </p>
+    </div>
+    <div class="conteiner2">
+      <div id="ordenar">
+        <h3 class="titulo">Ingrese los datos</h3>
+        <input type="text" name="apellido" class="cuadro" id="apellido" placeholder="Apellido" autofocus/>
+        <input type="text" name="nombre" class="cuadro" id="nombre" placeholder="Nombre" />
+        <input type="date" name="fechaNac" class="cuadro" id="fechaNac" placeholder="fecha nacimiento" />
+        <input type="submit" name="btn" class="btn" id="btn" value="Guardar" />
+      </div>
+      <div class="ordenar2">
+        <table class="tabla">
+          <thead class="encabezado">
+            <tr>
+              <th class="item">Apellido/s</th>
+              <th class="item">Nombre/s</th>
+              <th class="item">Fecha nacimiento</th>
+            </tr>
+          </thead>
+          <tbody id="cuerpo">
+          </tbody>
+        </table>
+      </div>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
