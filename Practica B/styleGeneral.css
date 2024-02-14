@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Gloria Hallelujah", sans-serif;
   box-sizing: border-box;
   color: white;
 }
@@ -21,7 +22,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0px;
+    margin: 30px;
     padding: 15px;
     font-family: Inconsolata, sans-serif;
     font-size: 18px;
@@ -32,12 +33,6 @@
   text-align: center;
   color: greenyellow;
   margin-bottom: 24px;
-  font-family: 'Gloria Hallelujah', sans-serif;
-}
-
-.enunciado {
-  font-family: 'Gloria Hallelujah', sans-serif;
-  margin: 0px 30px;
 }
 
 #ordenar {

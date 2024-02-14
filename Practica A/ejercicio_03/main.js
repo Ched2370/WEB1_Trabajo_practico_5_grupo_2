@@ -16,16 +16,15 @@ function solucion(){
         }
     }
 
-    r.innerHTML = "var lista = new Array('a','b','c','1','x','9','d','4');" + "<br>" +
+    r.innerHTML = "<pre style='padding: 15px; color: greenyellow; font-family: sans-serif'>"+"var lista = new Array('a','b','c','1','x','9','d','4');" + "<br>" +
     "var item;" + "<br>" +
     "" + "<br>" +
     "for (item of lista) {" + "<br>" +
-    "    if (item === '1' || item === '9' || item === '4'){" + "<br>" +
-    "        continue;" + "<br>" +
-    "" + "<br>" +
-    "    } else {" + "<br>" +
-    "        console.log(item);" + "<br>" +
-    "    }};";
+    "if (item === '1' || item === '9' || item === '4'){" + "<br>" +
+    "continue;" + "<br>" +
+    "} else {" + "<br>" +
+    "console.log(item);" + "<br>" +
+    "}};" + "</pre>";
 }
 
 

@@ -1,4 +1,4 @@
-var boton = document.getElementById("boton");
+var boton = document.getElementById("btn");
 boton.addEventListener("click", rectangulo);
 
 const r = document.getElementById("rectangulo");
@@ -20,13 +20,11 @@ function rectangulo() {
         } else {
           linea += " ";
         }
-        console.log(linea);
       }
-      console.log(linea);
       rectangulo += linea + '\n';
     }
     
-    r.innerHTML = '<pre>' + rectangulo + '</pre>'; // La etiqueta <pre> sirve para que no sepierdan los espacios en blanco en html
+    r.innerHTML = '<pre>' + rectangulo + '</pre>'; // La etiqueta <pre> sirve para que no se pierdan los espacios en blanco en html
 
   } catch (err) {
     alert("Ha ocurrido un error: " + err.message);

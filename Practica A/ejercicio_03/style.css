@@ -1,43 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Gloria Hallelujah", sans-serif;
-  box-sizing: border-box;
-  color: white;
-}
-
-:root {
-  background-color: black;
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-}
-
-.conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px;
-    padding: 15px;
-    font-family: Inconsolata, sans-serif;
-    max-width: 80vw;
-    font-size: 24px;
-}
-
-.titulo {
-  text-decoration: underline;
-  text-align: center;
-  color: greenyellow;
-  margin-bottom: 30px;
-}
-
 .codigo {
-  font-family: Inconsolata, sans-serif;
+  font-family: sans-serif;
   background-color: gray;
   color: black;
   padding: 15px;
@@ -46,21 +8,10 @@
   font-size: 24px;
 }
 
-#btn {
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    background-color: cornflowerblue;
-}
-
 #respuesta {
-  font-family: Inconsolata, sans-serif;
+  font-family: sans-serif;
   background-color: gray;
   color: black;
-  padding: 15px;
   border-radius: 10px;
   margin-top: 30px;
   font-size: 24px;

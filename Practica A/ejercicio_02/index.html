@@ -3,43 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Ejercicio 2</title>
   </head>
   <body>
-    <div class="conteiner principal">
-      <div class="conteiner enunciado">
+      <div class="conteiner">
         <h2 class="titulo">Ejercicio 2</h2>
         <p class="enunciado">
           2) Haz un programa que dibuje un rectángulo de asteriscos a partir de
           una base y altura especificada por el usuario.
         </p>
-      </div>
-      <div class="conteiner formulario">
-        <form action="#" defer>
-          <h3 class="titulo">Ingrese la base y la altura</h3>
-          <div>
-            <label for="base">Ingrese la base</label><br />
-            <input
-              type="number"
-              name="base"
-              class="cuadro_texto"
-              id="base"
-            /><br />
-            <label for="altura">Ingrese la altura</label><br />
-            <input
-              type="number"
-              name="altura"
-              class="cuadro_texto"
-              id="altura"
-            /><br />
-            <input type="button" value="Crear" id="boton" />
-          </div>
-        </form>
-        <div class="conteiner rectangulo">
-          <p id="rectangulo"></p>
-        </div>
-      </div>
+    </div>
+    <div id="ordenar">
+      <h3 class="titulo">Ingrese la base y la altura</h3>
+      <label for="base">Ingrese la base</label>
+      <input 
+        type="number" 
+        name="base" 
+        class="cuadro_texto" 
+        id="base" />
+      <label for="altura">Ingrese la altura</label>
+      <input
+        type="number"
+        name="altura"
+        class="cuadro_texto"
+        id="altura" />
+      <input type="button" value="Crear" class="btn" id="btn" />
+      <p id="rectangulo"></p>
     </div>
     <script src="main.js"></script>
   </body>

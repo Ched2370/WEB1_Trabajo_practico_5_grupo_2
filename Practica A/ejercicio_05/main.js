@@ -3,12 +3,13 @@ const click = document.getElementById("btn");
 click.addEventListener('click', jugar);
 
 num = Math.floor(Math.random() * 100 ** 3 + 1);
+console.log(num);
 
 function jugar() {
+  console.log(num);
   try {
-    console.log(num);
-    r.innerText = 'mmm';
-    let contador = 0;
+    r.innerText = '';
+    var contador = 0;
     let a;
     do {
       if (contador === 0) {
@@ -30,7 +31,8 @@ function jugar() {
   }finally {
     console.log(num);
     r.innerHTML = 'FELICITACIONES!!!' + '<br>' +
-    'el numero era ' + num;
+    'el numero era ' + num + '<br>' +
+    'intentos: ' + contador;
     num = Math.floor(Math.random() * 100 ** 3 + 1);
   }
 }

@@ -1,4 +1,4 @@
-var boton = document.getElementById("boton");
+var boton = document.getElementById("btn");
 boton.addEventListener("click", calcularDiasVividos);
 
 function calcularDiasVividos() {

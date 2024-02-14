@@ -1,17 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gloria Hallelujah', Tahoma, Geneva, Verdana, sans-serif;
-    box-sizing: border-box;
-    color: white;
-    list-style-type: lower-roman;
-}
-
-:root {
-    background-color: black;
-    flex-flow: column nowrap;
-    height: 100vh;
+    font-family: 'Gloria Hallelujah', sans-serif;
 }
 
 h1 {

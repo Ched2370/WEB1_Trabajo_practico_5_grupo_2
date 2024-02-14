@@ -4,6 +4,7 @@ btn.addEventListener("click", listaRandom);
 
 function listaRandom() {
   try {
+    resultado.innerHTML = '';
     for (let i = 0; i < 50; i++) {
       element = Math.floor(Math.random() * 6) + 1; // Math.floor() redondea el numero
       console.log(element);
@@ -16,5 +17,4 @@ function listaRandom() {
   } catch (err) {
     alert("Ha surjido un error " + err.message);
   }
-  resultado.innerHTML += '<br><br>';
 }
