@@ -9,12 +9,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    justify-content: center;
-    align-items: center;
+    justify-items: center;
     width: 80vw;
-
     margin: auto;
     padding: auto;
+    background-color: cadetblue;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
 
 #day, #month, #year {
@@ -52,6 +53,7 @@
     width: 80vw;
     height: 40px;
     background-color: aqua;
+    border-radius: 10px;
 }
 
 #resAño {
@@ -62,4 +64,31 @@
     font-weight: bold;
     
 
+}
+
+@media screen and (max-width: 900px){
+    #ordenar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-items: center;
+        width: 40vw;
+        margin: auto;
+        padding: auto;
+        background-color: cadetblue;
+        margin-bottom: 30px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    #conteinerGrip {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: auto;
+        width: 40vw;
+        height: 40px;
+        background-color: aqua;
+        border-radius: 10px;
+    }
 }

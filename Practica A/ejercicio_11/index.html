@@ -18,32 +18,9 @@
       </p>
     </div>
     <div id="ordenar">
-      <div id="year">
-        <label for="año">Selecione el año</label>
-        <input type="number" name="year" id="año" placeholder="2024" min="1900" max="2100" oninput="validarInput(this)">
-        <input type="button" class="btn" id="btnY" value="Cargar">
-      </div>
-      <div id="month">  
-        <label for="">Selecione el mes</label>
-        <select name="mes" id="mes" disabled>
-          <option class="mes">Enero</option>
-          <option class="mes">Febrero</option>
-          <option class="mes">Marzo</option>
-          <option class="mes">Abril</option>
-          <option class="mes">Mayo</option>
-          <option class="mes">Junio</option>
-          <option class="mes">Julio</option>
-          <option class="mes">Agosto</option>
-          <option class="mes">Septiembre</option>
-          <option class="mes">Octubre</option>
-          <option class="mes">Nombiembre</option>
-          <option class="mes">Diciembre</option>
-        </select>
-        <input type="button" class="btn" value="Cargar" disabled>
-      </div>
       <div id="day">
         <label for="">Selecione el dia</label>
-        <select name="dias" id="dias" disabled>
+        <select name="dias" id="dias">
           <option class="dia">01</option>
           <option class="dia">02</option>
           <option class="dia">03</option>
@@ -76,8 +53,31 @@
           <option class="dia Febrero">30</option>
           <option class="dia Febrero">31</option>
         </select>
-        <input type="button" class="btn" value="Cargar" disabled>
       </div>        
+      <div id="month">  
+        <label for="">Selecione el mes</label>
+        <select name="mes" id="mes">
+          <option class="mes">Enero</option>
+          <option class="mes">Febrero</option>
+          <option class="mes">Marzo</option>
+          <option class="mes">Abril</option>
+          <option class="mes">Mayo</option>
+          <option class="mes">Junio</option>
+          <option class="mes">Julio</option>
+          <option class="mes">Agosto</option>
+          <option class="mes">Septiembre</option>
+          <option class="mes">Octubre</option>
+          <option class="mes">Nombiembre</option>
+          <option class="mes">Diciembre</option>
+        </select>
+      </div>
+      <div id="year">
+        <label for="año">Selecione el año</label>
+        <input type="number" name="year" id="año" placeholder="2024" min="1900" max="2100">
+      </div>
+    </div>
+    <div class="conteiner">
+      <input type="button" class="btn" value="Cargar">
     </div>
     <div id="conteinerGrip">
       <p id="resDia"></p>
