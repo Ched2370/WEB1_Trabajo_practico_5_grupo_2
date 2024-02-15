@@ -19,17 +19,18 @@ function iniciar() {
     let palabras = f.split(' ');
 
     var uletra = palabras[palabras.length - 1];
+    var pletra = palabras[0];
     var inverso = '';
     var oletra = '';
 
-    for (let letra of palabras) {
+    /*for (let letra of palabras) {
       var pletra = letra[0];
       break;
     }
 
     for (let letra of palabras) {
       var uletra = letra[letra.length - 1];
-    }
+    }*/
 
     for (var invertir of palabras) {
       inverso = invertir.toUpperCase();
@@ -46,8 +47,8 @@ function iniciar() {
     grabarPrimera.innerText = "Primera: " + pletra;
     grabarUltima.innerText = "Ultima: " + uletra;
     grabarInverso.innerText = "Inverso: " + palabras.slice().reverse().join(" ");
-    grabarDeAaZ.innerText = "De A a Z: " + oletra.split('').sort().join(" ");
-    grabarDeZaA.innerText = "De Z a A: " + oletra.split('').sort().reverse().join(" ");
+    grabarDeAaZ.innerText = "De A a Z: " + palabras.sort().join(" ");
+    grabarDeZaA.innerText = "De Z a A: " + palabras.sort().reverse().join(" ");
   } catch (err) {
     alert("Ha surjido un error " + err.message);
   }
