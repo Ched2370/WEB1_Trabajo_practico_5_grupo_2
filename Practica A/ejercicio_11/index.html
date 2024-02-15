@@ -1,11 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../img/argentina.png" type="imgge/x-icon" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 11</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="titulo">Ejericio 11</h1>
+      <p class="enunciado">
+        11) Realice una página que permita cargar una fecha cargando el día, mes
+        y año por separado, verifique si es válida e informe la fecha si lo es o
+        diga que es inválida.
+      </p>
+    </div>
+    <div id="ordenar">
+      <div id="year">
+        <label for="año">Selecione el año</label>
+        <input type="number" name="year" id="año" placeholder="2024" min="1900" max="2100" oninput="validarInput(this)">
+        <input type="button" class="btn" id="btnY" value="Cargar">
+      </div>
+      <div id="month">  
+        <label for="">Selecione el mes</label>
+        <select name="mes" id="mes" disabled>
+          <option class="mes">Enero</option>
+          <option class="mes">Febrero</option>
+          <option class="mes">Marzo</option>
+          <option class="mes">Abril</option>
+          <option class="mes">Mayo</option>
+          <option class="mes">Junio</option>
+          <option class="mes">Julio</option>
+          <option class="mes">Agosto</option>
+          <option class="mes">Septiembre</option>
+          <option class="mes">Octubre</option>
+          <option class="mes">Nombiembre</option>
+          <option class="mes">Diciembre</option>
+        </select>
+        <input type="button" class="btn" value="Cargar" disabled>
+      </div>
+      <div id="day">
+        <label for="">Selecione el dia</label>
+        <select name="dias" id="dias" disabled>
+          <option class="dia">01</option>
+          <option class="dia">02</option>
+          <option class="dia">03</option>
+          <option class="dia">04</option>
+          <option class="dia">05</option>
+          <option class="dia">06</option>
+          <option class="dia">07</option>
+          <option class="dia">08</option>
+          <option class="dia">09</option>
+          <option class="dia">10</option>
+          <option class="dia">11</option>
+          <option class="dia">12</option>
+          <option class="dia">13</option>
+          <option class="dia">14</option>
+          <option class="dia">15</option>
+          <option class="dia">16</option>
+          <option class="dia">17</option>
+          <option class="dia">18</option>
+          <option class="dia">19</option>
+          <option class="dia">20</option>
+          <option class="dia">21</option>
+          <option class="dia">22</option>
+          <option class="dia">23</option>
+          <option class="dia">24</option>
+          <option class="dia">25</option>
+          <option class="dia">26</option>
+          <option class="dia">27</option>
+          <option class="dia">28</option>
+          <option class="dia Febrero" id="biciesto"  value="dd">29</option>
+          <option class="dia Febrero">30</option>
+          <option class="dia Febrero">31</option>
+        </select>
+        <input type="button" class="btn" value="Cargar" disabled>
+      </div>        
+    </div>
+    <div id="conteinerGrip">
+      <p id="resDia"></p>
+      <p id="resMes"></p>
+      <p id="resAño"></p>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>

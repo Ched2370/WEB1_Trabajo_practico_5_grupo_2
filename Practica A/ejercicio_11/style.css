@@ -1,0 +1,65 @@
+#calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#ordenar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+
+    margin: auto;
+    padding: auto;
+}
+
+#day, #month, #year {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    color: black;
+}
+
+#dias, #mes, #año {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    color: #000;
+    font-size: 18px;
+}
+
+.dia, .mes, #año {
+    color: black;
+    text-align: center;
+}
+
+.btn:disabled, .btn:disabled:hover {
+    background-color: grey;
+    color: black;
+}
+
+#conteinerGrip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: auto;
+    width: 80vw;
+    height: 40px;
+    background-color: aqua;
+}
+
+#resAño {
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}
