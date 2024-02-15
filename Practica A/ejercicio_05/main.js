@@ -6,8 +6,8 @@ num = Math.floor(Math.random() * 100 ** 3 + 1);
 console.log(num);
 
 function jugar() {
-  console.log(num);
   try {
+    console.log('num ' + num);
     r.innerText = '';
     var contador = 0;
     let a;
@@ -21,6 +21,11 @@ function jugar() {
         if (a < num) {
           a = prompt("El numero es mas grande, intentalo de nuevo");
         }
+      };
+      console.log('a ' + a);
+      if(isNaN(a)){
+        console.log('es NaN ' + a);
+        a = prompt("No has ingresado un numero\nIntentalo denuevo");
       }
       contador++;
       console.log(contador);
