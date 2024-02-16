@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../../img/argentina.png" type="imgge/x-icon">
-    <link rel="stylesheet" href="../styleGeneral.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../img/argentina.png" type="imgge/x-icon" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Ejercicio 10</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="conteiner">
-        <h1 class="titulo">Ejercicio 10</h1>
-        <p class="enunciado">
-            10) Realice una página que permita cargar una fecha en el formato DD-MM-YYYY y diga cuántos días faltan o ya pasaron respecto del día de hoy.
-        </p>
+      <h1 class="titulo">Ejercicio 10</h1>
+      <p class="enunciado">
+        10) Realice una página que permita cargar una fecha en el formato
+        DD-MM-YYYY y diga cuántos días faltan o ya pasaron respecto del día de
+        hoy.
+      </p>
     </div>
     <div id="ordenar">
-        <label for="calendario" id="label">Ingrese una fecha</label>
-        <input type="date" name="calendario" class="calendario" id="calendario">
-        <input type="button" name="btn" class="btn" id="btn" value="Calcular">
-        <p id="respuesta"></p>
+      <form method="get" action="#"></form>
+      <label for="calendario" id="label">Ingrese una fecha</label>
+      <input type="text" name="calendario" class="calendario" id="calendario"
+      placeholder="🗓️ dd/mm/yyyy" required=""
+      pattern=(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/((19|20)\d\d)>
+      <input type="button" name="btn" class="btn" id="btn" value="Calcular" />
+      <p id="respuesta"></p>
     </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
