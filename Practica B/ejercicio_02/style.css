@@ -1,0 +1,36 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #1b4332;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.caja {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-family: monospace, sans-serif;
+    width: 200px;
+    color: blue;
+}
+
+.caja:focus {
+    border: 3px solid red;
+    background-color: yellow;
+}
+
+.label {
+    text-align: start;
+    font-family: monospace, sans-serif;
+    font-size: 14px;
+    width: 200px;
+    padding: 0px 10px;
+}
+
+#sexo option{
+    color: blue;
+}

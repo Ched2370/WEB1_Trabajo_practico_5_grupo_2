@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="icon" href="../Hormiga motera.png">
+    <title>Ejercicio 2B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 2B</h1>
+        <p class="emumciado">2) Realice un formulario que contenga Nombre, Apellido, Sexo, Fecha de nacimiento y mail.
+            Luego realice las validaciones para cada uno de los campos.</p>
+    </div>
+    <div class="conteiner">
+        <form method="get" action="#" class="formulario">
+            <label for="nombre" class="label">Nombre/s</label>
+            <input type="text" name="nombre" placeholder="Maria" class="caja" id="nombre" required>
+            <label for="apellido" class="label">Apellido/s</label>
+            <input type="text" name="apellido" placeholder="Lopez" class="caja" id="apellido" required>
+            <label for="sexo" class="label">Sexo</label>
+            <select name="sexo" class="caja" id="sexo">
+                <option value="">Masculino</option>
+                <option value="">Femenino</option>
+            </select>
+            <label for="" class="label">Fecha nacimiento</label>
+            <input type="date" class="caja" id="fecha" required>
+            <label for="email" class="label">e-mail</label>
+            <input type="email" name="email" class="caja" id="email" placeholder="ejemplo@ejemplo.com" required>
+            <input type="button" value="Enviar" class="btn" id="btn">
+        </form>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
