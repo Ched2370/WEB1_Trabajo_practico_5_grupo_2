@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="../Hormiga motera.png">
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- coloque la libreria sweetalert -->>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 1B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 1B</h1>
+        <p class="enunciado">1) Realiza una página que muestre un formulario y verifique la entrada de un número que
+            esté comprendido entre 1 y 100.</p>
+    </div>
+    <div class="conteiner form">
+        <form>
+            <label for="validar">Ingrese un numero del 1 al 100</label>
+            <input type="number" name="validar" id="validar" min="1" max="100">
+            <input type="button" name="btn" class="btn" id="btn" value="Comprobar">
+        </form>
+
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

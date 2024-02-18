@@ -23,13 +23,9 @@ function mostrar() {
             console.log(fecha);
         }else {
             console.log('año invalido ' + varYear);
-            alert('el año no es valido');
+            swal('Fecha invalida', 'Has ingresado un dato invalido', 'error');
         }
     } catch (err) {
-        alert('Ha sujido un error ' + err.message);
+        swal('Ha sujido un error ', err.message, 'error');
     }
-}
-
-function esAñoBisiesto(){
-    return (año % 4 === 0 && año % 100 !== 0) || (año % 400 === 0);
 }

@@ -31,7 +31,8 @@ function iniciar() {
     for (let letra of palabras) {
       var uletra = letra[letra.length - 1];
     }*/
-
+ 
+    /*
     for (var invertir of palabras) {
       inverso = invertir.toUpperCase();
     }
@@ -40,7 +41,7 @@ function iniciar() {
       if(letra !== ' ') {
         oletra += letra.toUpperCase();
       }
-    }
+    }*/
 
     grabarFrase.innerHTML = frase + "<br>";
     grabarCantidad.innerHTML = "Cantidad: " + palabras.length;

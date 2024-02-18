@@ -9,7 +9,7 @@ function solucion(){
     var item;
     
     for (item of lista) {
-        if (item === '1' || item === '9' || item === '4'){
+        if (item === '1' || item === '9' || item === '4'){ //IsNaN se podia colocar
             continue;
         } else {
             console.log(item);
