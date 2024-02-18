@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../Hormiga motera.png" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 3B</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="titulo">Ejercicio 3B</h1>
+      <p class="enunciado">
+        3) Realizar un formulario donde: la longitud del nombre sea mayor de
+        cuatro caracteres. El nombre sólo debe contener caracteres del alfabeto
+        español (no contiene números ni caracteres no alfanuméricos). La edad
+        sólo debe contener números y estar comprendido entre 18 y 30. La dirección de correo debe incluir una arroba y su longitud sea superior a
+        cinco caracteres.
+      </p>
+    </div>
+    <div class="conteiner">
+        <form method="get" action="#" class="formulario">
+            <label for="nombre" class="label">Nombre</label>
+            <input type="text" name="nombre" class="caja" id="nombre" placeholder="Maria" required>
+            <label for="edad" class="label">Edad</label>
+            <input type="number" class="caja" id="edad" placeholder="18" required>
+            <label for="email" class="label">e-mail</label>
+            <input type="email" name="email" class="caja" id="email" placeholder="ejemplo@ejemplo.com">
+            <input type="button" name="btn" class="btn" id="btn" value="Validar" max="30" min="18">
+        </form>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
