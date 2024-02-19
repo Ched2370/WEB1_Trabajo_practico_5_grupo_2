@@ -1,0 +1,99 @@
+.formulario {
+    display: grid;
+    grid-template: repeat(3, 1fr), repeat(3, 1fr);
+    grid-template-areas: 
+        "label1 label2 label3"
+        "input1 input2 input3"
+        ". btn .";
+    justify-items: center;
+    background-color: #8d99ae;
+    padding: 30px;
+    border-radius: 10px;
+    width: 700px;
+}
+
+
+.caja {
+    border-radius: 10px;
+    font-family: inconsolata,sans-serif;
+    color: black;
+    padding: 5px 20px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.caja:focus {
+    background-color: yellow;
+    border: 3px solid red;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 500px){
+    .formulario {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #8d99ae;
+        padding: 30px 10px;
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    .caja {
+        border-radius: 10px;
+        font-family: inconsolata,sans-serif;
+        color: black;
+        padding: 5px 10px;
+        width: 80%;
+    }
+}
+#label1 {
+    grid-area: label1;
+}
+
+#label2 {
+    grid-area: label2;
+}
+
+#label3 {
+    grid-area: label3;
+}
+
+#nombre {
+    grid-area: input1;
+}
+
+#compositor {
+    grid-area: input2;
+}
+
+#duracion {
+    grid-area: input3;
+    text-align: end;
+}
+
+.btn {
+    grid-area: btn;
+    margin-top: 30px;
+    width: 200px;
+}
+
+.tabla {
+    width: 700px;
+    min-width: 200px;
+    background-color: #6a040f;
+    border: 3px solid #ffba08;
+    border-radius: 5px;
+}
+
+.tabla tr td:nth-child(odd) {
+    background-color: #f48c06;
+    border-style: groove;
+}
+
+.tabla tr td:nth-child(even) {
+    background-color: #dc2f02;
+}

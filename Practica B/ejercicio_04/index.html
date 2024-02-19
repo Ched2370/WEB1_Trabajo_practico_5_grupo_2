@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 4B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 4B</h1>
+        <p class="enunciado">4) Realice un formulario para la carga de datos de un CD. Realice las validaciones
+            correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
+            para cargar la canción (nombre, compositor, duración).</p>
+    </div>
+    <div class="conteiner">
+        <form method="get" action="#" class="formulario">
+            <label for="nombre" class="label" id="label1">Nombre</label>
+            <input type="text" name="nombre" class="caja" id="nombre" placeholder="Cancion">
+            <label for="composito" class="label" id="label2">Compositor</label>
+            <input type="text" name="compositor" class="caja" id="compositor" placeholder="Compositor">
+            <label for="duracion" class="label" id="label3">Duracion</label>
+            <input type="text" name="duracion" class="caja" id="duracion" placeholder="00:00:00">
+            <input type="button" class="btn" id="btn" value="Agregar cancion">
+        </form>
+    </div>
+    <div class="conteiner">
+        <table class="tabla">
+            <thead class="t_encabezado">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Compositor</th>
+                    <th>Duracion</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
