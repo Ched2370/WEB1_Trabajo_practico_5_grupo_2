@@ -16,32 +16,29 @@
             correspondientes. Por medio de un botón agregar canción se debe habilitar una línea nueva
             para cargar la canción (nombre, compositor, duración).</p>
     </div>
-    <div class="conteiner">
+    <div class="conteiner formYTabla">
+        <div class="conteiner Tabla">
+            <table class="tabla">
+                <thead class="t_encabezado">
+                    <tr>
+                        <th>Cancion</th>
+                        <th>Compositor</th>
+                        <th>Duracion</th>
+                    </tr>
+                </thead>
+                <tbody id="tcuerpo">
+    
+                </tbody>
+            </table>
+        </div>
         <form method="get" action="#" class="formulario">
-            <label for="nombre" class="label" id="label1">Nombre</label>
             <input type="text" name="nombre" class="caja" id="nombre" placeholder="Cancion">
-            <label for="composito" class="label" id="label2">Compositor</label>
             <input type="text" name="compositor" class="caja" id="compositor" placeholder="Compositor">
-            <label for="duracion" class="label" id="label3">Duracion</label>
             <input type="text" name="duracion" class="caja" id="duracion" placeholder="00:00:00">
             <input type="button" class="btn" id="btn" value="Agregar cancion">
         </form>
     </div>
-    <div class="conteiner">
-        <table class="tabla">
-            <thead class="t_encabezado">
-                <tr>
-                    <th>Nombre</th>
-                    <th>Compositor</th>
-                    <th>Duracion</th>
-                </tr>
-            </thead>
-            <tbody>
-
-            </tbody>
-        </table>
-
-    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>

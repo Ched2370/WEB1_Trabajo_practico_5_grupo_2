@@ -1,3 +1,12 @@
+.formYTabla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    height: auto;
+}
+
 .formulario {
     display: grid;
     grid-template: repeat(3, 1fr), repeat(3, 1fr);
@@ -6,10 +15,8 @@
         "input1 input2 input3"
         ". btn .";
     justify-items: center;
-    background-color: #8d99ae;
     padding: 30px;
     border-radius: 10px;
-    width: 700px;
 }
 
 
@@ -30,26 +37,6 @@
     font-size: 18px;
 }
 
-@media screen and (max-width: 500px){
-    .formulario {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        background-color: #8d99ae;
-        padding: 30px 10px;
-        border-radius: 10px;
-        width: 300px;
-    }
-
-    .caja {
-        border-radius: 10px;
-        font-family: inconsolata,sans-serif;
-        color: black;
-        padding: 5px 10px;
-        width: 80%;
-    }
-}
 #label1 {
     grid-area: label1;
 }
@@ -81,7 +68,8 @@
     width: 200px;
 }
 
-.tabla {
+
+.tabla tr th{
     width: 700px;
     min-width: 200px;
     background-color: #6a040f;
@@ -89,11 +77,19 @@
     border-radius: 5px;
 }
 
-.tabla tr td:nth-child(odd) {
+.tabla tr td{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabla tr:nth-child(odd) {
     background-color: #f48c06;
     border-style: groove;
 }
 
-.tabla tr td:nth-child(even) {
+.tabla tr:nth-child(even) {
     background-color: #dc2f02;
+    border-style: groove;
 }
+

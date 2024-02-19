@@ -23,5 +23,5 @@ function guardarDatos(){
     nombre.value = '';
     fechaNac.value = '';
     contador ++;
-    document.write(contador);
+    console.log(contador);
 }
