@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <title>Ejercicio 6B</title>
 </head>
 <body>
+    <style id="style">
+    </style>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 6B</h1>
+        <p class="enunciado">6) Realiza una página que muestre cinco cuadrados de diferentes colores. Cuando el ratón pase por encima de alguno de ellos el color de fondo será del color de relleno del cuadrado.</p>
+    </div>
+    <div class="corral">
+        <div class="cuadrado" id="rojo" onmouseenter="rojo()" onmouseleave="salida()"></div>
+        <div class="cuadrado" id="azul" onmouseenter="azul()" onmouseleave="salida()"></div>
+        <div class="cuadrado" id="verde" onmouseenter="verde()" onmouseleave="salida()"></div>
+        <div class="cuadrado" id="amarillo" onmouseenter="amarillo()" onmouseleave="salida()"></div>
+        <div class="cuadrado" id="blanco" onmouseenter="blanco()" onmouseleave="salida()"></div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
