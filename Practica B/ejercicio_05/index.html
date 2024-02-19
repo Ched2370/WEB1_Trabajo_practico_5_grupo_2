@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 5B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 5B</h1>
+        <p class="enunciado">5) Realice una página donde el usuario pueda cargar un contacto. El contacto de esa persona debe tener al menos un teléfono y como máximo 3. Además debe ser obligatoria la carga del mail. Realice las validaciones necesarias.</p>
+    </div>
+    <div class="conteiner">
+        <form method="get" action="#" class="formulario">
+            <div class="cont">
+                <label for="nombre" class="label">Contacto</label>
+                <input type="text" name="nombre" class="caja" id="nombre" placeholder="Maria">
+            </div>
+            <div class="cont">
+                <label for="telefono1" class="label">Telefono 1</label>
+                <input type="text" name="telefono1" class="caja" id="telefono1" placeholder="5555 5555">
+                <label for="telefono2" class="label">Telefono 2</label>
+                <input type="text" name="telefono2" class="caja" id="telefono2" placeholder="5555 5555">
+                <label for="telefono3" class="label">Telefono 3</label>
+                <input type="text" name="telefono3" class="caja" id="telefono3" placeholder="5555 5555">
+              </div>
+              <div class="cont">
+              <label for="email" class="label">e-mail</label>
+              <input type="text" name="email" class="caja" id="email" placeholder="ejemplo@ejemplo.com">
+            </div>
+            <div class="cont">
+              <input type="button" name="btn" class="btn" id="btn" value="Validar">
+            </div>
+        </form>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
