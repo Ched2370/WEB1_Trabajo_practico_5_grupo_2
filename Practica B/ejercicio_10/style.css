@@ -37,6 +37,7 @@
 
 #display {
   grid-area: display;
+  overflow: scroll;
   width: auto;
   height: 60px;
   background-color: rgba(255, 255, 255);
@@ -44,8 +45,8 @@
   font-family: inconsolata, monospace;
   color: black;
   text-align: end;
-  font-size: 32px;
-  padding: 20px 10px;
+  font-size: 28px;
+  padding: 10px;
   font-weight: bold;
 }
 
