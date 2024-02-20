@@ -7,10 +7,12 @@ function azul(){
     style.innerHTML = 'body {background-color: blue;}';
 }
 function blanco(){
-    style.innerHTML = 'body {background-color: white;}';
+    style.innerHTML = 'body {background-color: white;}' +
+    '.enunciado { color: black; }';;
 }
 function amarillo(){
-    style.innerHTML = 'body {background-color: yellow;}';
+    style.innerHTML = 'body { background-color: yellow; }' +
+    '.enunciado { color: black; }';
 }
 function verde(){
     style.innerHTML = 'body {background-color: green;}';

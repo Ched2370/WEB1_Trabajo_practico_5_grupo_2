@@ -1,0 +1,38 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: rgba(72, 191, 227);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.label {
+    width: 150px;
+    padding: 0px 10px;
+    font-family: inconsolata, monospace;
+    color: black;
+}
+
+.caja {
+    width: 150px;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: inconsolata, monospace;
+    font-size: 18px;
+}
+
+.cambio-checked {
+    font-size: 12px;
+    font-family: inconsolata, monospace;
+    color: black;
+}
+
+a {
+    font-family: inconsolata, monospace;
+    color: blue;
+    padding: 10px;
+}
