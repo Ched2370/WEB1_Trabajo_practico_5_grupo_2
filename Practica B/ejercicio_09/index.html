@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 9B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 9B</h1>
+        <p class="enunciado">9) Realiza una página que efectúe 3 preguntas de evaluación donde el usuario seleccione a través de radio button su respuesta. La página proporcionará la evaluación y las respuestas correctas a petición del usuario.</p>
+    </div>
+    <div class="conteiner">
+        <input type="button" class="btn" id="btn" value="Comprobar">
+        <div class="quest">
+            <p>¿HTML es un lenguaje de marcado para crear estructura y contenido en una página web?</p>
+            <input type="radio" name="quest1" class="radioBtn" id="v1"><label for="v1">Verdadero</label><br>
+            <input type="radio" name="quest1" class="radioBtn" id="f1"><label for="f1">Falso</label><br>
+            <p class="res" id="res1"></p>
+        </div>
+        <div class="quest">
+            <p>¿CSS se utiliza para agregar interactividad y funcionalidad a una página web?</p>
+            <input type="radio" name="quest2" class="radioBtn" id="v2"><label for="v2">Verdadero</label><br>
+            <input type="radio" name="quest2" class="radioBtn" id="f2"><label for="f2">Falso</label><br>
+            <p class="res" id="res2"></p>
+        </div>
+        <div class="quest">
+            <p>¿JavaScript se puede usar para modificar elementos HTML en una página web?</p>
+            <input type="radio" name="quest3" class="radioBtn" id="v3"><label for="v3">Verdadero</label><br>
+            <input type="radio" name="quest3" class="radioBtn" id="v3"><label for="f3">Falso</label><br>
+            <p class="res" id="res3"></p>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+.quest {
+    width: 60vw;
+    margin-bottom: 30px;
+}
+
+.radioBtn {
+    margin: 20px auto auto 50px;
+}
+
+label {
+    margin-left: 20px;
+    color: yellow;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.res {
+    text-align: center;
+    font-size: 24px;
+}
