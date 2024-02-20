@@ -1,0 +1,22 @@
+#cuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#gato {
+    position: relative;
+    z-index: 1;
+}
+
+#leon {
+    position: relative;
+    margin-top: -400px;
+}

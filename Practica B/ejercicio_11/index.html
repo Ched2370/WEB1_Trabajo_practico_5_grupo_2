@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style id="style"></style>
     <title>Ejercicio 11B</title>
 </head>
 <body>
-    <div>
-        <h1>Ejercicio 11B</h1>
-        <p>11) Realiza una página que muestre una imagen que cambie cuando el ratón pasa por encima de la imagen y que vuelva a cambiar cuando salga de ella.</p>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 11B</h1>
+        <p class="enunciado">11) Realiza una página que muestre una imagen que cambie cuando el ratón pasa por encima de la imagen y que vuelva a cambiar cuando salga de ella.</p>
+    </div>
+    <div class="conteiner">
+        <div id="cuadro">
+            <img src="gato.jpg" alt="gato" id="gato" onmouseenter="leon()" onmouseleave="gato()">
+            <img src="leon.jpg" alt="leon" id="leon">
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
