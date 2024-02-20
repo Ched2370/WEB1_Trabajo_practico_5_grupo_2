@@ -4,5 +4,5 @@
 
 - Ledesma Rocio
 - Ibañez Mario Martin
-- Leon Jonathan Ariel
+- Remon Jonathan
 - ...
