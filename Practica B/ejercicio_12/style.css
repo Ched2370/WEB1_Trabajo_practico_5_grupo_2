@@ -1,0 +1,88 @@
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: rgba(0, 126, 167);
+    width: 80vw;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#contenedor1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: 5px 20px;
+}
+
+#contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 5px 10px;
+}
+
+
+#agregar {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: black;
+    width: 200px;
+    font-family: consolata, monospace;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+#select {
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px 20px;
+    color: black;
+    font-family: consolata, monospace;
+    font-size: 18px;
+}
+
+option{
+    color: black;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.btn {
+    margin: auto 10px;
+}
+
+@media screen and (max-width: 970px){
+    #formulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+        background-color: rgba(0, 126, 167);
+        width: 70vw;
+        min-width: 300px;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    #contenedor1 {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin: 5px 20px;
+    }
+    
+    #contenedor2 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-flow: column nowrap;
+        margin: 5px 10px;
+    }
+}

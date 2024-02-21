@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../../img/Hormiga motera.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 12B</title>
 </head>
 <body>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 12B</h1>
+        <p class="enunciado">12) Realizar una página que permita modificar (añadir, borrar, modificar) al gusto del usuario
+            los contenidos de un elemento SELECT de un formulario.</p>
+    </div>
+    <div class="conteiner">
+        <form method="get" action="#" onsubmit="" id="formulario">
+            <div id="contenedor1">
+                <label for="">ingresa las opciones</label>
+                <input type="text" id="agregar">
+                <select id="select">
+            
+                </select>
+            </div>
+            <div id="contenedor2">
+                <input type="button"  name="boton" class="btn" id="btnAgregar" value="Agregar">
+                <input type="button"  name="boton" class="btn" id="btnModificar" value="Modificar">
+                <input type="button"  name="boton" class="btn" id="btnEliminar" value="Eliminar">
+            </div>
+        </form>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
