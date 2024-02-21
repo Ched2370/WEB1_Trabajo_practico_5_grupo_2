@@ -1,11 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../../img/Hormiga motera.png" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 13B</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="titulo">Ejercicio 13B</h1>
+      <p class="enunciado">
+        13) Realiza una página que muestre un proyector de fotografías, donde a
+        través de botones anterior y siguiente el usuario pueda ir cambiando las
+        imágenes.
+      </p>
+    </div>
+    <div id="carrucel">
+      <button class="btn" id="ant">&#128072;</button>
+      <button class="btn" id="sig">&#128073;</button>
+      <img class="imagenes" src="img/tierra.png" alt="tierra" id="tierra" />
+      <img
+        class="imagenes sobreponer"
+        src="img/astronauta.png"
+        alt="astronauta1"
+        id="astro1"
+      />
+      <img
+        class="imagenes sobreponer"
+        src="img/astronauta2.png"
+        alt="astronauta2"
+        id="astro2"
+      />
+      <img
+        class="imagenes sobreponer"
+        src="img/astronauta3.png"
+        alt="astronauta3"
+        id="astro3"
+      />
+      <img
+        class="imagenes sobreponer"
+        src="img/volcan.png"
+        alt="volcan"
+        id="volcan"
+      />
+      <img
+        class="imagenes sobreponer"
+        src="img/fuego.png"
+        alt="fuego"
+        id="fuego"
+        style="z-index: 1;"
+      />
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
