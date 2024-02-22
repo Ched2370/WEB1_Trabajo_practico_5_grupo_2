@@ -1,0 +1,25 @@
+.caja {
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: black;
+    font-family: inconsolata, monospace;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.caja:focus {
+    background-color: yellow;
+    border: 3px solid red;
+}
+
+.btn {
+    margin: 30px;
+}
+
+#respuesta {
+    font-family: inconsolata, monospace;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
