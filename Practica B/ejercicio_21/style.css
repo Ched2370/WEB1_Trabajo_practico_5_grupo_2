@@ -1,0 +1,24 @@
+#frase {
+  font-size: 18px;
+  font-weight: bold;
+  width: 500px;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+#lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.item {
+  list-style: none;
+  font-family: inconsolata, sans-serif;
+  margin: 10px;
+  font-size: 24px;
+  color: greenyellow;
+}

@@ -3,9 +3,9 @@ btn.addEventListener("click", tirarDados);
 
 function tirarDados() {
   try {
-    let vueltas = Math.floor(Math.random() * 30) + 1;
+    let vueltas = Math.floor(Math.random() * 30) + 15;
     const dado = document.getElementById("dado");
-    
+    console.log('cantidad de vueltas ' + vueltas);
     for (let i = 0; i < vueltas; i++) {
       const num = Math.floor(Math.random() * 6) + 1;
       setTimeout(() => {

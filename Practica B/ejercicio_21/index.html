@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../../img/argentina.png" type="imgge/x-icon">
+    <link rel="stylesheet" href="../styleGeneral.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Ejercicio 6</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1 class="titulo">Ejercicio 6</h1>
+      <p class="enunciado">
+        21) Leer una cadena de texto en un formulario y generar un array con la función split(). Posteriormente, mostrar la siguiente información: Número de palabras, primera palabra, última palabra, las palabras colocadas en orden inverso, las palabras ordenadas de la a la z
+y las palabras ordenadas de la z a la a. Sacar toda esta información en una ventana nueva.
+      </p>
+    </div>
+    <div id="ordenar">
+      <input type="text" name="" id="frase">
+      <input type="button" name="btnIniciar" class="btn" id="btnIniciar" value="Iniciar">
+      <input type="button" name="btnLimpiar" class="btn" id="btnLimpiar" value="limpiar">
+      <p id="frase"></p>
+      <ul id="lista">
+        <li class="item" id="cantidad"></li>
+        <li class="item" id="primera"></li>
+        <li class="item" id="ultima"></li>
+        <li class="item" id="inverso"></li>
+        <li class="item" id="DeAaZ"></li>
+        <li class="item" id="DeZaA"></li>
+      </ul>
+    </div>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
