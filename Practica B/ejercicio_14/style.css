@@ -1,0 +1,20 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #a3b18a;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.caja {
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: black;
+    font-family: consolata, monospace;
+    font-size: 18px;
+    padding: 5px;
+}

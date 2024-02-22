@@ -30,6 +30,7 @@
     color: white;
     width: auto;
     padding: 10px;
+    z-index: 2;
 }
 
 .btn:hover {
