@@ -1,0 +1,26 @@
+#contenedor {
+    width: 80vw;
+}
+
+.parrafo {
+    color: gold;
+    text-align: justify;
+}
+
+.parrafo2 {
+    color: deeppink;
+}
+
+.imagen {
+    width: 400px;
+    float: left;
+}
+
+.imagen2 {
+    width: 400px;
+    float: right;
+}
+
+.btn {
+    margin-top: 30px;
+}
