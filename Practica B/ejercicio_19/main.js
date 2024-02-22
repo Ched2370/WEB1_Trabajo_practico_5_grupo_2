@@ -3,10 +3,17 @@ btn.addEventListener("click", tirarDados);
 
 function tirarDados() {
   try {
-    num = Math.floor(Math.random() * 6) + 1;
-    dado = document.getElementById("dado");
-    dado.src = 'img/' + num + ".JPG";
+    let vueltas = Math.floor(Math.random() * 30) + 1;
+    const dado = document.getElementById("dado");
+    
+    for (let i = 0; i < vueltas; i++) {
+      const num = Math.floor(Math.random() * 6) + 1;
+      setTimeout(() => {
+        dado.src = "img/" + num + ".JPG";
+      }, i * 100);
+    }
   } catch (err) {
     swal("ERROR", "Ha surjido un error" + err.message, "error");
   }
 }
+
