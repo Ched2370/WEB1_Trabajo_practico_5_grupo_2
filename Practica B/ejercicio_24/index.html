@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../styleGeneral.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../../img/Hormiga motera.png" />
+    <title>Ejercicio 24B adicional</title>
 </head>
 <body>
-    <script src="main.js"></script>
+    <div class="conteiner">
+        <h1 class="titulo">Ejercicio 24B adicional</h1>
+        <p class="enunciado">24) Realiza una página que incluya una caja de texto que permita sugerir palabras a medida que el usuario tipea en la misma. La Base de Datos de las palabras debe estar previamente cargada en un array contenido en el archivo db.js. Ver etiqueta <a href="">datalist</a>.</p>
+    </div>
+    <div class="conteiner">
+        <label for="masco">Que clase de mascota tienes?</label>
+        <input type="list" list="mascotas" name="masco" id="inputMascotas">
+        <datalist id="mascotas">
+            <option value="Perro"></option>
+            <option value="Gato"></option>
+            <option value="Loro"></option>
+            <option value="Tortuga"></option>
+            <option value="Rueddor"></option>
+            <option value="Pez"></option>
+            <option value="Reptil"></option>
+        </datalist>
+    </div>
+    <script src="db.js"></script>
 </body>
 </html>
