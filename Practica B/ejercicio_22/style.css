@@ -3,3 +3,15 @@
     position: absolute;
     transition: top, left 100ms;
 }
+
+.titulo {
+    user-select: none;
+}
+
+.enunciado {
+    user-select: none;
+}
+
+p {
+    user-select: none;
+}

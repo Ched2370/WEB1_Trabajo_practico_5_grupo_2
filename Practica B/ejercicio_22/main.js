@@ -22,6 +22,7 @@ function ganaste() {
     try {
         contador ++;
         const p = document.createElement('p');
+        btn.innerHTML = '&#129324';
         p.innerText = 'LO LOGRASTE ' + contador;
         btn.insertAdjacentElement('beforebegin', p); 
     } catch (err) {
