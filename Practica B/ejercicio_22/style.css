@@ -1,4 +1,5 @@
 #btn {
+    font-family: 'Segoe UI Emoji';
     position: absolute;
     transition: top, left 100ms;
 }
