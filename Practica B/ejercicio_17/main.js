@@ -1,7 +1,7 @@
 const btn = document.getElementById('btn');
 btn.addEventListener('click', comprobar);
 
-function comprobar() {
+/*function comprobar() {
     try {
         const frase = document.getElementById('fraseIngresada').value;
         const respuesta = document.getElementById('respuesta');
@@ -18,4 +18,25 @@ function comprobar() {
     } catch (err) {
         swal('ERROR', 'Ha surgido un error ' + err.message, 'error');
     }
+}*/
+
+function comprobar() {
+    try {
+        let indice = 0;
+        const frase = document.getElementById('fraseIngresada').value;
+        const respuesta = document.getElementById('respuesta');
+
+        let a = setInterval(() => {
+            respuesta.innerHTML += frase.charAt(indice);
+            indice ++;
+            if (indice == frase.length) {
+                clearInterval(a);
+            }
+        }, 700);
+        frase.value = '';
+        respuesta.innerHTML += '<br>';
+    } catch (err) {
+        
+    }
+
 }
